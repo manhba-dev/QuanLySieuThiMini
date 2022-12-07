@@ -49,6 +49,7 @@
           <Property Name="DONGIA" Type="float" />
           <Property Name="THANHTIEN" Type="float" />
           <Property Name="NGAY" Type="datetime" />
+          <Property Name="STT" Type="int" />
         </EntityType>
         <EntityType Name="tb_CONGTY">
           <Key>
@@ -279,6 +280,7 @@
           <Property Name="DONGIA" Type="Double" />
           <Property Name="THANHTIEN" Type="Double" />
           <Property Name="NGAY" Type="DateTime" Precision="3" />
+          <Property Name="STT" Type="Int32" />
         </EntityType>
         <EntityType Name="tb_CONGTY">
           <Key>
@@ -513,6 +515,7 @@
           <EntitySetMapping Name="tb_CHUNGTU_CT">
             <EntityTypeMapping TypeName="QUANLY_KHOHANGModel1.tb_CHUNGTU_CT">
               <MappingFragment StoreEntitySet="tb_CHUNGTU_CT">
+                <ScalarProperty Name="STT" ColumnName="STT" />
                 <ScalarProperty Name="KHOACT" ColumnName="KHOACT" />
                 <ScalarProperty Name="KHOA" ColumnName="KHOA" />
                 <ScalarProperty Name="BARCODE" ColumnName="BARCODE" />

@@ -83,7 +83,7 @@ namespace STOCK
         }
         void loadDviByCty()
         {
-            gcDanhSach.DataSource = _donvi.getALL();
+            gcDanhSach.DataSource = _donvi.getALL(cboCty.SelectedValue.ToString());
             gvDanhSach.OptionsBehavior.Editable = false;
         }
 

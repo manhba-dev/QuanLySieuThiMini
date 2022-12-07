@@ -44,6 +44,7 @@
     <Property Name="DONGIA" Type="float" />
     <Property Name="THANHTIEN" Type="float" />
     <Property Name="NGAY" Type="datetime" />
+    <Property Name="STT" Type="int" />
   </EntityType>
   <EntityType Name="tb_CONGTY">
     <Key>

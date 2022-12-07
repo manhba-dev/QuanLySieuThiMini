@@ -112,6 +112,7 @@
             this.toolStrip1.Size = new System.Drawing.Size(1290, 27);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
+            this.toolStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.toolStrip1_ItemClicked);
             // 
             // toolStripSeparator2
             // 
@@ -237,6 +238,7 @@
             this.gcDanhSach.TabIndex = 2;
             this.gcDanhSach.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvDanhSach});
+            this.gcDanhSach.Click += new System.EventHandler(this.gcDanhSach_Click_1);
             // 
             // gvDanhSach
             // 

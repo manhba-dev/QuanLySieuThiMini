@@ -34,6 +34,7 @@
     <Property Name="DONGIA" Type="Double" />
     <Property Name="THANHTIEN" Type="Double" />
     <Property Name="NGAY" Type="DateTime" Precision="3" />
+    <Property Name="STT" Type="Int32" />
   </EntityType>
   <EntityType Name="tb_CONGTY">
     <Key>

@@ -28,6 +28,7 @@
     <EntitySetMapping Name="tb_CHUNGTU_CT">
       <EntityTypeMapping TypeName="QUANLY_KHOHANGModel1.tb_CHUNGTU_CT">
         <MappingFragment StoreEntitySet="tb_CHUNGTU_CT">
+          <ScalarProperty Name="STT" ColumnName="STT" />
           <ScalarProperty Name="KHOACT" ColumnName="KHOACT" />
           <ScalarProperty Name="KHOA" ColumnName="KHOA" />
           <ScalarProperty Name="BARCODE" ColumnName="BARCODE" />

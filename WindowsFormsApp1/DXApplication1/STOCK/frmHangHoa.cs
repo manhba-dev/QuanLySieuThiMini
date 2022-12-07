@@ -229,6 +229,16 @@ namespace STOCK
             Process.Start(path);
         }
 
+        private void gcDanhSach_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
         //private void cboNhom_SelectedIndexChanged(object sender, EventArgs e)
         //{
         //    gcDanhSach.DataSource = _hanghoa.getListByNhom(int.Parse(cboNhom.SelectedValue.ToString()));
