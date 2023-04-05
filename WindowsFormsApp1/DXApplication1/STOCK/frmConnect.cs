@@ -67,12 +67,20 @@ namespace STOCK
         private void btnLuu_Click(object sender, EventArgs e)
         {
             string enCryptServ = Encryptor.Encrypt(txtServer.Text, "qwertyuiop", true);
+
+
+
             string enCryptPass = Encryptor.Encrypt(txtPassword.Text, "qwertyuiop", true);
             string enCryptData = Encryptor.Encrypt(cboDatabase.Text, "qwertyuiop", true);
             string enCryptUser = Encryptor.Encrypt(txtUsername.Text, "qwertyuiop", true);
             connect cn = new connect(enCryptServ, enCryptUser, enCryptPass, enCryptData);
             cn.SaveFile();
             MessageBox.Show("Lưu file thành công.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void frmConnect_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

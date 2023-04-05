@@ -31,6 +31,10 @@ namespace STOCK
         {
             btnThem.Visible = t;
             btnSua.Visible = t;
+
+
+
+
             btnThoat.Visible = t;
             btnLuu.Visible = !t;
             btnBoQua.Visible = !t;

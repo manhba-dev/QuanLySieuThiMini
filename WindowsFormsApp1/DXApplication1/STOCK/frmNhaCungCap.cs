@@ -22,6 +22,10 @@ namespace STOCK
         NHACUNGCAP _nhacungcap = new NHACUNGCAP();
         bool _them;
         int _mancc;
+
+
+
+
         private void frmNhaCungCap_Load(object sender, EventArgs e)
         {
             loadData();
@@ -39,6 +43,12 @@ namespace STOCK
             btnThem.Visible = t;
             btnSua.Visible = t;
             btnXoa.Visible = t;
+
+
+
+
+
+
             btnThoat.Visible = t;
             btnLuu.Visible = !t;
             btnBoQua.Visible = !t;

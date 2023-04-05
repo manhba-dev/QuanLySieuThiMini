@@ -17,8 +17,13 @@ namespace BusinesssLayer
         {
             db = Entities.CreateEntities();
         }
+
+
+
+
+
         public tb_HANGHOA getItem(string barcode)
-        {
+        { 
             return db.tb_HANGHOA.FirstOrDefault(x => x.BARCODE == barcode);
         }
         public List<tb_HANGHOA> getListByNhom (int idnhom)

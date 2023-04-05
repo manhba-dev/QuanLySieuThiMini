@@ -13,6 +13,9 @@ namespace BusinesssLayer
         public NHOMHANGHOA()
         {
             db = Entities.CreateEntities();
+
+
+
         }
         public List<tb_NHOMHH> getList()
         {
